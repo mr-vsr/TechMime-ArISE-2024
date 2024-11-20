@@ -4,7 +4,7 @@ def format_name(first, last){
     return first.capitalize() + last.capitalize()
 }
 
-names = [("purn", "vasu"), ("golden", "jubliee"), ("diamond", "jubliee")]:
+names = [("purn", "vasu"), ("Golden", "Jubliee"), ("Diamond", "Jubliee"), ("Admin","Block")]:
 for fname, lname in names{
         print(format_name(fname, lname));
     if fname == "purn" and lname == "vasu":

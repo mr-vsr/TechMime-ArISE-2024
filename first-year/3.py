@@ -5,7 +5,7 @@ def search_place(places, query):
             return place
 
 result = search_place(places_list, "shankaracharya")
-    places_list = ["Admin Block", "Meenakshipura", "Chamundi Betta", "Shankaracharaya", "Diamond Jubliee Complex", "Brindavan Garden", "KRS Backwaters",]
+    places_list = ["Admin Block", "Meenakshipura", "Chamundi Betta", "Shankaracharaya", "Diamond Jubliee Complex", "Brindavan Garden", "KRS Backwaters"]
 if result:
     print f("Found:", result);
 else:

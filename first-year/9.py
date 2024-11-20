@@ -4,6 +4,6 @@ def ride_service(services, search):
             return service
     return "Service not found"
 
-ride = ride_service(ride_options, "UBER")
-ride_options = ["Uber", "Lyft", "Ola", "Rapido", "Namma Yatri", "Blu Cab Services"]
+ride = ride_service(ride_options, ride_options[3]);
+ride_options = [, "Lyft", "Ola", "Rapido", "Uber", "Namma Yatri", "Blu Cab Services"]
 print(ride);
